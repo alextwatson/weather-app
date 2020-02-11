@@ -145,7 +145,10 @@ func main() {
 	var data1 Foo
 	json.Unmarshal([]byte(resultBody), &data1)
 	fmt.Println("it didn't crash")
-	fmt.Printf("properties=%+v", data1)
+	fmt.Printf("properties=%+v", Period)
 	// ---------------------------------------------------------------------
-
+	
+	
+	
+	
 }
